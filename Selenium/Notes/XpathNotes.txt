@@ -1,0 +1,77 @@
+All tags in webpages : 
+
+a
+body
+br
+button
+div
+form
+h1
+h2
+head
+i
+iframe
+img
+input
+label
+li
+link
+meta
+noscript
+option
+p
+script
+select
+span
+style
+table
+tbody
+td
+title
+tr
+u
+ul
+
+Absolute : /html/body/div[1]/div[2]/div/div/div/div/div[2]/form/table/tbody/tr[2]/td[1]/input
+Relaive : //*[@id="email"]
+
+Relative xpath: //*[@class='featured-box']//*[text()='Testing']
+
+Contains() : //*[contains(@type,'sub')] ,//*[contains(@name,'btn')]
+
+Using OR & AND : Xpath=//*[@type='submit' or @name='btnReset'], Xpath=//input[@type='submit' and @name='btnLogin']
+
+Starts-with : Xpath=//label[starts-with(@id,'message')]
+
+Text():Xpath=//td[text()='UserID']	
+
+axes methods :
+
+1.Following: 
+Selects all elements in the document of the current node( )
+Xpath=//*[@type='text']//following::input
+
+2.Ancestor : Xpath=//*[text()='Enterprise Testing']//ancestor::div[2]
+3.Child : Xpath=//*[@id='java_technologies']//child::li[3]
+4.Preceding:Select all nodes that come before the current node as shown in the below screen. 
+Xpath=//*[@type='submit']//preceding::input[1]
+5. Following-sibling: xpath=//*[@type='submit']//following-sibling::input
+6.Parent : Xpath=//*[@id='rt-feature']//parent::div
+7.Self
+8.descendant
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
