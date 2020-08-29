@@ -9,29 +9,31 @@ import org.apache.poi.xssf.usermodel.XSSFRow;
 import org.apache.poi.xssf.usermodel.XSSFSheet;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
-public class WritingDataInExcel {
+public class WritingDataExcel2 {
 
 	public static void main(String[] args) throws IOException {
-		
-		
-		// it will create new or override existing file. 
-		FileOutputStream file = new FileOutputStream("C://Users//HAP//Desktop//Tools//Automation//writedata.xlsx");
-		
+
+		// it will create new or override existing file.
+		FileOutputStream file = new FileOutputStream("C://Users//HAP//Desktop//Tools//Automation//writedata2.xlsx");
+
 		XSSFWorkbook workbook = new XSSFWorkbook();
 		XSSFSheet sheet = workbook.createSheet("Data");
-		
-		
-		for (int i =0;i<4;i++) {
-			
+
+		for (int i = 0; i < 4; i++) {
+
 			XSSFRow row = sheet.createRow(i);
-			
-			for (int j=0;j<3;j++) {
-				
-				XSSFCell cell = row.createCell(j);
-				cell.setCellValue("I will be in dream11");
-			}
+
+			XSSFCell useridcell = row.createCell(0);
+			useridcell.setCellValue("UserID");
+
+			XSSFCell username = row.createCell(1);
+			username.setCellValue("UserNmae");
+
+			XSSFCell intrate = row.createCell(2);
+			intrate.setCellValue("Interets rate");
+
 		}
-		
+
 		workbook.write(file);
 		file.close();
 		System.out.println("Data Written succesfully............");
