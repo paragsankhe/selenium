@@ -97,5 +97,18 @@
 	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/log4j-1.2.17.jar"/>
 	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/poi-bin-4.1.2-20200217/poi-4.1.2/lib/SparseBitSet-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/core-3.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/zxing-2.1.jar/zxing-2.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/banner-1.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/commons-collections4-4.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/commons-lang3-3.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/core-3.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/jai-imageio-core-1.4.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/javase-3.3.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/jcommander-1.72.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/text-ui-0.0.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/HAP/Downloads/jar_files/zxing-1.0.12.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
