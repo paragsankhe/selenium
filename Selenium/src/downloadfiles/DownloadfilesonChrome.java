@@ -11,7 +11,7 @@ public class DownloadfilesonChrome {
 	public static void main(String[] args) {
 
 		System.setProperty("webdriver.chrome.driver",
-				"C:\\Users\\HAP\\git\\selenium\\Selenium\\drivers\\chromedriver.exe");
+				"C:\\Users\\HAP\\git\\selenium\\Selenium\\drivers\\Driversnew\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://demo.automationtesting.in/FileDownload.html");
 
